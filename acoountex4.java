@@ -77,7 +77,7 @@ public class Main {
         System.out.println("\nEnter Savings Account Details:");
         System.out.print("Account Number: ");
         int savingsAccountNumber = scanner.nextInt();
-        scanner.nextLine(); // Consume newline
+        scanner.nextLine(); 
         System.out.print("Name: ");
         String savingsAccountName = scanner.nextLine();
         System.out.print("Email: ");
